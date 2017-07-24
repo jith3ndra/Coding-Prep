@@ -16,8 +16,8 @@
                     return end;
                 }
             }
-            return -1;
         }
+        return -1;
     }
     int lengthOfLIS(vector<int>& nums) {
         if(nums.size()==0 || nums.size()==1) return nums.size();
