@@ -17,6 +17,7 @@
                 }
             }
         }
+        
         return -1;
     }
     int lengthOfLIS(vector<int>& nums) {
